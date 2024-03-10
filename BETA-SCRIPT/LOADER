@@ -1,0 +1,440 @@
+--Made by catminetry
+--vis:Beta 0.1
+
+wait(1.2)
+
+local send = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+
+--Properties:
+
+send.Name = "send"
+send.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+send.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = send
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.423999965, 0, 0.32100001, 0)
+Frame.Size = UDim2.new(0, 200, 0, 200)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Size = UDim2.new(0, 200, 0, 200)
+ImageLabel.Image = "rbxassetid://13905679212"
+
+UICorner.Parent = ImageLabel
+
+UICorner_2.Parent = Frame
+
+local p = game:GetService("Players")
+wait(3)
+p.LocalPlayer.PlayerGui.UI:Destory()
+
+wait(1)
+--real script
+
+local UI = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local list = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local UIPadding = Instance.new("UIPadding")
+local btn1 = Instance.new("TextButton")
+local btn2 = Instance.new("TextButton")
+local btn3 = Instance.new("TextButton")
+local btn4 = Instance.new("TextButton")
+local set = Instance.new("TextLabel")
+local btn5 = Instance.new("TextButton")
+local btn6 = Instance.new("TextButton")
+local btn7 = Instance.new("TextButton")
+local bruh = Instance.new("TextLabel")
+local h = Instance.new("TextLabel")
+local h1 = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local no = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local hide = Instance.new("ImageButton")
+local hiden = Instance.new("Frame")
+local wow = Instance.new("ImageButton")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+UI.Name = "UI"
+UI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+UI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = UI
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.423861861, 0, 0.321192056, 0)
+main.Size = UDim2.new(0, 156, 0, 148)
+
+list.Name = "list"
+list.Parent = main
+list.Active = true
+list.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+list.BorderColor3 = Color3.fromRGB(0, 0, 0)
+list.BorderSizePixel = 0
+list.Position = UDim2.new(0.0384615399, 0, 0.216216221, 0)
+list.Size = UDim2.new(0, 143, 0, 107)
+list.CanvasSize = UDim2.new(0, 0, 2.5, 0)
+list.ScrollBarThickness = 6
+
+UIListLayout.Parent = list
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 11)
+
+UIPadding.Parent = list
+UIPadding.PaddingBottom = UDim.new(0, 9)
+UIPadding.PaddingTop = UDim.new(0, 13)
+
+btn1.Name = "btn1"
+btn1.Parent = list
+btn1.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+btn1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn1.BorderSizePixel = 0
+btn1.Position = UDim2.new(0.0734265745, 0, 0, 0)
+btn1.Size = UDim2.new(0, 122, 0, 23)
+btn1.Font = Enum.Font.AmaticSC
+btn1.Text = "IY Command"
+btn1.TextColor3 = Color3.fromRGB(0, 0, 0)
+btn1.TextSize = 22.000
+
+btn2.Name = "btn2"
+btn2.Parent = list
+btn2.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+btn2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn2.BorderSizePixel = 0
+btn2.Position = UDim2.new(0.0734265745, 0, 0, 0)
+btn2.Size = UDim2.new(0, 122, 0, 23)
+btn2.Font = Enum.Font.AmaticSC
+btn2.Text = "DEX"
+btn2.TextColor3 = Color3.fromRGB(0, 0, 0)
+btn2.TextSize = 22.000
+
+btn3.Name = "btn3"
+btn3.Parent = list
+btn3.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+btn3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn3.BorderSizePixel = 0
+btn3.Position = UDim2.new(0.0734265745, 0, 0, 0)
+btn3.Size = UDim2.new(0, 122, 0, 23)
+btn3.Font = Enum.Font.AmaticSC
+btn3.Text = "DOORS(Bob Hub)"
+btn3.TextColor3 = Color3.fromRGB(0, 0, 0)
+btn3.TextSize = 22.000
+
+btn4.Name = "btn4"
+btn4.Parent = list
+btn4.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+btn4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn4.BorderSizePixel = 0
+btn4.Position = UDim2.new(0.0734265745, 0, 0, 0)
+btn4.Size = UDim2.new(0, 122, 0, 23)
+btn4.Font = Enum.Font.AmaticSC
+btn4.Text = "Blade ball(auto parry)"
+btn4.TextColor3 = Color3.fromRGB(0, 0, 0)
+btn4.TextSize = 22.000
+
+set.Name = "set"
+set.Parent = list
+set.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+set.BorderColor3 = Color3.fromRGB(0, 0, 0)
+set.BorderSizePixel = 0
+set.Position = UDim2.new(0.0734265745, 0, -0.152941182, 0)
+set.Size = UDim2.new(0, 122, 0, 17)
+set.Font = Enum.Font.Unknown
+set.Text = "Settings"
+set.TextColor3 = Color3.fromRGB(0, 0, 0)
+set.TextSize = 17.000
+set.TextXAlignment = Enum.TextXAlignment.Left
+set.TextYAlignment = Enum.TextYAlignment.Top
+
+btn5.Name = "btn5"
+btn5.Parent = list
+btn5.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+btn5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn5.BorderSizePixel = 0
+btn5.Position = UDim2.new(0.0734265745, 0, 0, 0)
+btn5.Size = UDim2.new(0, 122, 0, 23)
+btn5.Font = Enum.Font.AmaticSC
+btn5.Text = "reload"
+btn5.TextColor3 = Color3.fromRGB(0, 0, 0)
+btn5.TextSize = 22.000
+
+btn6.Name = "btn6"
+btn6.Parent = list
+btn6.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+btn6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn6.BorderSizePixel = 0
+btn6.Position = UDim2.new(0.0734265745, 0, 0, 0)
+btn6.Size = UDim2.new(0, 122, 0, 23)
+btn6.Font = Enum.Font.AmaticSC
+btn6.Text = "dont click"
+btn6.TextColor3 = Color3.fromRGB(0, 0, 0)
+btn6.TextSize = 22.000
+
+btn7.Name = "btn7"
+btn7.Parent = list
+btn7.BackgroundColor3 = Color3.fromRGB(90, 0, 0)
+btn7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+btn7.BorderSizePixel = 0
+btn7.Position = UDim2.new(0.0734265745, 0, 0, 0)
+btn7.Size = UDim2.new(0, 122, 0, 23)
+btn7.Font = Enum.Font.AmaticSC
+btn7.Text = "destory ui"
+btn7.TextColor3 = Color3.fromRGB(0, 0, 0)
+btn7.TextSize = 22.000
+
+bruh.Name = "bruh"
+bruh.Parent = list
+bruh.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+bruh.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bruh.BorderSizePixel = 0
+bruh.Position = UDim2.new(0.0734265745, 0, -0.152941182, 0)
+bruh.Size = UDim2.new(0, 122, 0, 17)
+bruh.Font = Enum.Font.Unknown
+bruh.Text = "script introduce"
+bruh.TextColor3 = Color3.fromRGB(0, 0, 0)
+bruh.TextSize = 17.000
+bruh.TextXAlignment = Enum.TextXAlignment.Left
+bruh.TextYAlignment = Enum.TextYAlignment.Top
+
+h.Name = "h"
+h.Parent = list
+h.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+h.BorderColor3 = Color3.fromRGB(0, 0, 0)
+h.BorderSizePixel = 0
+h.Position = UDim2.new(0.0734265745, 0, -0.152941182, 0)
+h.Size = UDim2.new(0, 122, 0, 17)
+h.Font = Enum.Font.Unknown
+h.Text = "Made by catminetry"
+h.TextColor3 = Color3.fromRGB(130, 130, 130)
+h.TextSize = 15.000
+h.TextXAlignment = Enum.TextXAlignment.Left
+h.TextYAlignment = Enum.TextYAlignment.Top
+
+h1.Name = "h1"
+h1.Parent = list
+h1.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+h1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+h1.BorderSizePixel = 0
+h1.Position = UDim2.new(0.0734265745, 0, -0.152941182, 0)
+h1.Size = UDim2.new(0, 122, 0, 17)
+h1.Font = Enum.Font.Unknown
+h1.Text = "UI made by↑"
+h1.TextColor3 = Color3.fromRGB(130, 130, 130)
+h1.TextSize = 15.000
+h1.TextXAlignment = Enum.TextXAlignment.Left
+h1.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner.Parent = main
+
+no.Name = "no"
+no.Parent = main
+no.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+no.BorderColor3 = Color3.fromRGB(0, 0, 0)
+no.BorderSizePixel = 0
+no.Position = UDim2.new(0, 0, 0.0810810775, 0)
+no.Size = UDim2.new(0, 156, 0, 12)
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 156, 0, 24)
+title.Font = Enum.Font.Unknown
+title.Text = "GODX"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 22.000
+
+UICorner_2.Parent = title
+
+hide.Name = "hide"
+hide.Parent = main
+hide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hide.BackgroundTransparency = 1.000
+hide.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hide.BorderSizePixel = 0
+hide.Position = UDim2.new(0.801282048, 0, 0, 0)
+hide.Size = UDim2.new(0, 24, 0, 24)
+hide.Image = "rbxassetid://3510179260"
+
+hiden.Name = "hiden"
+hiden.Parent = UI
+hiden.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hiden.BorderColor3 = Color3.fromRGB(135, 135, 135)
+hiden.BorderSizePixel = 0
+hiden.Position = UDim2.new(0.467817903, 0, 0.231788084, 0)
+hiden.Size = UDim2.new(0, 44, 0, 44)
+hiden.Visible = false
+
+wow.Name = "wow"
+wow.Parent = hiden
+wow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+wow.BackgroundTransparency = 1.000
+wow.BorderColor3 = Color3.fromRGB(0, 0, 0)
+wow.BorderSizePixel = 0
+wow.Position = UDim2.new(0.188192889, 0, 0.204545453, 0)
+wow.Size = UDim2.new(0, 26, 0, 26)
+wow.Image = "rbxassetid://13905664807"
+
+UICorner_3.Parent = hiden
+
+-- Scripts:
+
+local function ZOFFB_fake_script() -- btn1.iy 
+	local script = Instance.new('LocalScript', btn1)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+	
+	script.Parent.TouchTap:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(ZOFFB_fake_script)()
+local function GAIJ_fake_script() -- btn2.dex 
+	local script = Instance.new('LocalScript', btn2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		getgenv().Key = "Bash"
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
+	end)
+	
+	script.Parent.TouchTap:Connect(function()
+		getgenv().Key = "Bash"
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
+	end)
+end
+coroutine.wrap(GAIJ_fake_script)()
+local function CHLMKL_fake_script() -- btn3.doors 
+	local script = Instance.new('LocalScript', btn3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
+	end)
+	
+	script.Parent.TouchTap:Connect(function()
+		loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\54\53\84\119\84\56\106\97"))()
+	end)
+end
+coroutine.wrap(CHLMKL_fake_script)()
+local function LWAKX_fake_script() -- btn4.ball 
+	local script = Instance.new('LocalScript', btn4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		_G.UI_Size = 200 -- config ui size
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+	end)
+	
+	script.Parent.TouchTap:Connect(function()
+		_G.UI_Size = 200 -- config ui size
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+	end)
+end
+coroutine.wrap(LWAKX_fake_script)()
+local function FGCRDL_fake_script() -- btn5.re 
+	local script = Instance.new('LocalScript', btn5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	script.Parent.Parent.Parent.Parent.Enabled = false
+	wait(2.5)
+	script.Parent.Parent.Parent.Parent.Enabled = true
+	end)
+	
+	script.Parent.TouchTap:Connect(function()
+		script.Parent.Parent.Parent.Parent.Enabled = false
+		wait(2.5)
+		script.Parent.Parent.Parent.Parent.Enabled = true
+	end)
+end
+coroutine.wrap(FGCRDL_fake_script)()
+local function EAOQ_fake_script() -- btn6.cli 
+	local script = Instance.new('LocalScript', btn6)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	script.Parent.TouchTap:Connect(function()
+	script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(EAOQ_fake_script)()
+local function VHUM_fake_script() -- btn7.des 
+	local script = Instance.new('LocalScript', btn7)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+	
+	script.Parent.TouchTap:Connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(VHUM_fake_script)()
+local function MBWCWI_fake_script() -- hide.hid 
+	local script = Instance.new('LocalScript', hide)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.hiden.Visible = true
+	end)
+	
+	script.Parent.TouchTap:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.hiden.Visible = true
+	end)
+end
+coroutine.wrap(MBWCWI_fake_script)()
+local function HXSLKI_fake_script() -- main.huh 
+	local script = Instance.new('LocalScript', main)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(HXSLKI_fake_script)()
+local function PIUUR_fake_script() -- wow.com 
+	local script = Instance.new('LocalScript', wow)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.main.Visible = true
+		if script.Parent.Parent.Parent.main.list.Visible == false then
+			script.Parent.Parent.Parent.main.list.Visible = true
+		end
+	end)
+	
+	script.Parent.TouchTap:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.main.Visible = true
+		if script.Parent.Parent.Parent.main.list.Visible == false then
+			script.Parent.Parent.Parent.main.list.Visible = true
+		end
+	end)
+end
+coroutine.wrap(PIUUR_fake_script)()
+local function PSOT_fake_script() -- hiden.LocalScript 
+	local script = Instance.new('LocalScript', hiden)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(PSOT_fake_script)()
